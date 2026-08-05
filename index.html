@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>성산고시텔</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="section-tabs" aria-label="페이지 섹션">
+        <a href="#price-info">가격정보</a>
+        <a href="#use-info">이용정보</a>
+        <a href="#building-info">건물정보</a>
+        <a href="#shared-info">공용시설</a>
+        <a href="#intro-info">소개</a>
+        <a href="#location-info">위치</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-label="성산고시텔 대표 정보">
+        <div class="slider" data-slider>
+          <div class="slides">
+            <img
+              class="slide active"
+              src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1400&q=80"
+              alt="깔끔한 개인실 이미지"
+            />
+            <img
+              class="slide"
+              src="https://images.unsplash.com/photo-1560448075-bb485b067938?auto=format&fit=crop&w=1400&q=80"
+              alt="밝은 책상과 침대가 있는 방"
+            />
+            <img
+              class="slide"
+              src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1400&q=80"
+              alt="정돈된 공용 공간"
+            />
+          </div>
+          <button class="slider-button prev" type="button" aria-label="이전 사진">&lt;</button>
+          <button class="slider-button next" type="button" aria-label="다음 사진">&gt;</button>
+          <div class="slider-dots" aria-label="사진 선택"></div>
+        </div>
+
+        <div class="hero-details">
+          <h1>성산고시텔</h1>
+          <div class="contact-line">
+            <span id="addressText">경남 창원시 성산구 남산동</span>
+            <button class="icon-button" data-copy="addressText" type="button" aria-label="주소 복사">📋</button>
+            <a
+              class="map-badge kakao"
+              href="https://map.kakao.com/link/search/경남%20창원시%20성산구%20남산동"
+              target="_blank"
+              rel="noopener"
+              aria-label="카카오맵에서 보기"
+            >
+              K
+            </a>
+            <a
+              class="map-badge naver"
+              href="https://map.naver.com/p/search/경남%20창원시%20성산구%20남산동"
+              target="_blank"
+              rel="noopener"
+              aria-label="네이버지도에서 보기"
+            >
+              N
+            </a>
+          </div>
+          <div class="contact-line">
+            <span id="phoneText">010-0000-0000</span>
+            <button class="icon-button" data-copy="phoneText" type="button" aria-label="전화번호 복사">📋</button>
+          </div>
+          <p class="price-summary">00~00만원</p>
+        </div>
+      </section>
+
+      <section id="price-info" class="info-section">
+        <h2>가격정보</h2>
+        <div class="info-grid">
+          <article><strong>임대유형</strong><p contenteditable="true"></p></article>
+          <article><strong>보증금</strong><p contenteditable="true"></p></article>
+          <article><strong>월 이용료</strong><p contenteditable="true"></p></article>
+          <article><strong>관리비</strong><p contenteditable="true"></p></article>
+        </div>
+      </section>
+
+      <section id="use-info" class="info-section">
+        <h2>이용정보</h2>
+        <div class="info-grid">
+          <article><strong>이용기간</strong><p contenteditable="true"></p></article>
+          <article><strong>이용연령</strong><p contenteditable="true"></p></article>
+          <article><strong>방 종류</strong><p contenteditable="true"></p></article>
+          <article><strong>남녀구분</strong><p contenteditable="true"></p></article>
+          <article><strong>기타사항</strong><p contenteditable="true"></p></article>
+          <article><strong>제공 서비스</strong><p contenteditable="true"></p></article>
+        </div>
+      </section>
+
+      <section id="building-info" class="info-section">
+        <h2>건물정보</h2>
+        <div class="info-grid">
+          <article><strong>층 수</strong><p contenteditable="true"></p></article>
+          <article><strong>주차</strong><p contenteditable="true"></p></article>
+          <article><strong>엘리베이터</strong><p contenteditable="true"></p></article>
+        </div>
+      </section>
+
+      <section id="shared-info" class="info-section">
+        <h2>공용시설</h2>
+        <div class="info-grid">
+          <article><strong>난방시설</strong><p contenteditable="true"></p></article>
+          <article><strong>세탁시설</strong><p contenteditable="true"></p></article>
+          <article><strong>청결시설</strong><p contenteditable="true"></p></article>
+          <article><strong>주방시설</strong><p contenteditable="true"></p></article>
+          <article><strong>생활시설</strong><p contenteditable="true"></p></article>
+          <article><strong>안전시설</strong><p contenteditable="true"></p></article>
+          <article><strong>공간시설</strong><p contenteditable="true"></p></article>
+          <article><strong>제공 비품</strong><p contenteditable="true"></p></article>
+        </div>
+      </section>
+
+      <section id="intro-info" class="info-section">
+        <h2>소개</h2>
+        <div class="info-grid wide">
+          <article><strong>지점소개</strong><p contenteditable="true"></p></article>
+          <article><strong>환불정책</strong><p contenteditable="true"></p></article>
+        </div>
+      </section>
+
+      <section id="location-info" class="info-section location-section">
+        <h2>위치</h2>
+        <div class="location-card">
+          <div class="location-text">
+            <div class="location-address">
+              <strong id="locationAddress">경남 창원시 성산구 남산동</strong>
+              <button class="icon-button" data-copy="locationAddress" type="button" aria-label="위치 주소 복사">📋</button>
+            </div>
+            <p>남산버스정류소에서 도보 3분</p>
+          </div>
+          <a
+            class="map-preview"
+            href="https://map.naver.com/p/search/경남%20창원시%20성산구%20남산동"
+            target="_blank"
+            rel="noopener"
+            aria-label="네이버지도에서 위치 보기"
+          >
+            <span>네이버 지도</span>
+            <strong>성산고시텔 위치 보기</strong>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
