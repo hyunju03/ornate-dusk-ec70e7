@@ -289,6 +289,17 @@ h1 {
   text-align: center;
 }
 
+.quick-image-icon {
+  display: block;
+  width: 92px;
+  height: 68px;
+  margin: 0 auto 18px;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  background: #20272e;
+}
+
 .quick-icon {
   display: block;
   height: 54px;
