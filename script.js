@@ -69,7 +69,8 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
 });
 
 function syncActiveTab() {
-  const current = sections.findLast((section) => section.getBoundingClientRect().top <= 92) || sections[0];
+  const current =
+    sections.findLast((section) => section.getBoundingClientRect().top <= 92) || sections[0];
 
   tabLinks.forEach((link) => {
     link.classList.toggle("active", link.getAttribute("href") === `#${current.id}`);

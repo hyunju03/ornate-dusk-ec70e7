@@ -32,12 +32,12 @@
             <img
               class="slide active"
               src="https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1400&q=80"
-              alt="깔끔한 개인실 이미지"
+              alt="깔끔한 개인실"
             />
             <img
               class="slide"
               src="https://images.unsplash.com/photo-1560448075-bb485b067938?auto=format&fit=crop&w=1400&q=80"
-              alt="밝은 책상과 침대가 있는 방"
+              alt="책상과 침대가 있는 방"
             />
             <img
               class="slide"
@@ -50,15 +50,26 @@
           <div class="slider-dots" aria-label="사진 선택"></div>
         </div>
 
-        <div class="hero-details">
+        <aside class="hero-details">
+          <span class="listing-label">Gositell in Seongsan</span>
           <h1>성산고시텔</h1>
-          <div class="contact-line">
-            <span id="addressText">경남 창원시 성산구 남산동 601-25 대우상가</span>
-            <button class="icon-button" data-copy="addressText" type="button" aria-label="주소 복사">📋</button>
+          <div class="price-summary">33~38만원</div>
+
+          <div class="contact-stack">
+            <div class="contact-line">
+              <span id="addressText">경남 창원시 성산구 남산동 601-25 대영상가</span>
+              <button class="icon-button" data-copy="addressText" type="button" aria-label="주소 복사"></button>
+            </div>
+            <div class="contact-line">
+              <span id="phoneText">010-7927-2629</span>
+              <button class="icon-button" data-copy="phoneText" type="button" aria-label="전화번호 복사"></button>
+            </div>
+          </div>
+
+          <div class="map-actions">
             <a
               class="map-badge kakao"
-              href="https://map.kakao.com/link/search/경남 창원시 성산구 남산동 601-25 대우상가"
-              
+              href="https://map.kakao.com/link/search/경남%20창원시%20성산구%20남산동%20601-25%20대영상가"
               target="_blank"
               rel="noopener"
               aria-label="카카오맵에서 보기"
@@ -67,7 +78,7 @@
             </a>
             <a
               class="map-badge naver"
-              href="https://map.naver.com/p/search/경남 창원시 성산구 남산동 601-25 대우상가"
+              href="https://map.naver.com/p/search/경남%20창원시%20성산구%20남산동%20601-25%20대영상가"
               target="_blank"
               rel="noopener"
               aria-label="네이버지도에서 보기"
@@ -75,76 +86,81 @@
               N
             </a>
           </div>
-          <div class="contact-line">
-            <span id="phoneText">010-7927-2629</span>
-            <button class="icon-button" data-copy="phoneText" type="button" aria-label="전화번호 복사">📋</button>
-          </div>
-          <p class="price-summary">33~38만원</p>
-        </div>
+        </aside>
       </section>
 
       <section id="quick-info" class="info-section quick-section">
         <div class="quick-heading">
           <h2>입실안내</h2>
-        
         </div>
         <div class="quick-grid">
           <article>
             <img class="quick-image-icon" src="assets/room-structure-clean.svg" alt="방구조 아이콘" />
             <h3>방구조</h3>
             <p>크기: 3.5평형</p>
-            <p>각방샤워실 1 개</p>
+            <p>각방샤워실(1)개</p>
           </article>
           <article>
             <img class="quick-image-icon" src="assets/price-icon-clean.png" alt="입실료 아이콘" />
             <h3>입실료</h3>
             <p>33 ~ 38 만원(관리비포함)</p>
-            <p>밥무료 </p>
+            <p>밥무료</p>
           </article>
           <article>
             <img class="quick-image-icon" src="assets/building-structure-clean.png" alt="건물 구조 아이콘" />
             <h3>건물 구조</h3>
-            <p>총 5 층 건물중 3 층</p>
+            <p>총 5층 건물중 3층</p>
             <p>총룸수 21개</p>
           </article>
-         
         </div>
       </section>
 
-      <section id="price-info" class="info-section">
-        <h2>가격정보</h2>
-        <div class="info-grid">
-          <article><strong>임대유형</strong><p>월세</p></article>
-          <article><strong>보증금</strong><p contenteditable="true"></p></article>
-          <article><strong>월 이용료</strong><p contenteditable="true"></p></article>
-          <article><strong>관리비</strong><p contenteditable="true"></p></article>
+      <section id="price-info" class="info-section detail-section">
+        <div class="section-title">
+          <span>Price</span>
+          <h2>가격정보</h2>
+        </div>
+        <div class="detail-list">
+          <div><strong>임대유형</strong><p>월세</p></div>
+          <div><strong>보증금</strong><p contenteditable="true"></p></div>
+          <div><strong>월 이용료</strong><p contenteditable="true"></p></div>
+          <div><strong>관리비</strong><p contenteditable="true"></p></div>
         </div>
       </section>
 
-      <section id="use-info" class="info-section">
-        <h2>이용정보</h2>
-        <div class="info-grid">
-          <article><strong>이용기간</strong><p contenteditable="true"></p></article>
-          <article><strong>이용연령</strong><p contenteditable="true"></p></article>
-          <article><strong>방 종류</strong><p contenteditable="true"></p></article>
-          <article><strong>남녀구분</strong><p contenteditable="true"></p></article>
-          <article><strong>기타사항</strong><p contenteditable="true"></p></article>
-          <article><strong>제공 서비스</strong><p contenteditable="true"></p></article>
+      <section id="use-info" class="info-section detail-section">
+        <div class="section-title">
+          <span>Use</span>
+          <h2>이용정보</h2>
+        </div>
+        <div class="detail-list">
+          <div><strong>이용기간</strong><p contenteditable="true"></p></div>
+          <div><strong>이용연령</strong><p contenteditable="true"></p></div>
+          <div><strong>방 종류</strong><p contenteditable="true"></p></div>
+          <div><strong>남녀구분</strong><p contenteditable="true"></p></div>
+          <div><strong>기타사항</strong><p contenteditable="true"></p></div>
+          <div><strong>제공 서비스</strong><p contenteditable="true"></p></div>
         </div>
       </section>
 
-      <section id="building-info" class="info-section">
-        <h2>건물정보</h2>
-        <div class="info-grid">
-          <article><strong>층 수</strong><p contenteditable="true"></p></article>
-          <article><strong>주차</strong><p contenteditable="true"></p></article>
-          <article><strong>엘리베이터</strong><p contenteditable="true"></p></article>
+      <section id="building-info" class="info-section detail-section">
+        <div class="section-title">
+          <span>Building</span>
+          <h2>건물정보</h2>
+        </div>
+        <div class="detail-list compact">
+          <div><strong>층 수</strong><p contenteditable="true"></p></div>
+          <div><strong>주차</strong><p contenteditable="true"></p></div>
+          <div><strong>엘리베이터</strong><p contenteditable="true"></p></div>
         </div>
       </section>
 
-      <section id="shared-info" class="info-section">
-        <h2>공용시설</h2>
-        <div class="info-grid">
+      <section id="shared-info" class="info-section detail-section">
+        <div class="section-title">
+          <span>Facilities</span>
+          <h2>공용시설</h2>
+        </div>
+        <div class="facility-grid">
           <article><strong>난방시설</strong><p contenteditable="true"></p></article>
           <article><strong>세탁시설</strong><p contenteditable="true"></p></article>
           <article><strong>청결시설</strong><p contenteditable="true"></p></article>
@@ -156,27 +172,33 @@
         </div>
       </section>
 
-      <section id="intro-info" class="info-section">
-        <h2>소개</h2>
-        <div class="info-grid wide">
+      <section id="intro-info" class="info-section detail-section">
+        <div class="section-title">
+          <span>About</span>
+          <h2>소개</h2>
+        </div>
+        <div class="textarea-grid">
           <article><strong>지점소개</strong><p contenteditable="true"></p></article>
           <article><strong>환불정책</strong><p contenteditable="true"></p></article>
         </div>
       </section>
 
       <section id="location-info" class="info-section location-section">
-        <h2>위치</h2>
+        <div class="section-title">
+          <span>Location</span>
+          <h2>위치</h2>
+        </div>
         <div class="location-card">
           <div class="location-text">
             <div class="location-address">
-              <strong id="locationAddress">경남 창원시 성산구 남산동</strong>
-              <button class="icon-button" data-copy="locationAddress" type="button" aria-label="위치 주소 복사">📋</button>
+              <strong id="locationAddress">경남 창원시 성산구 남산동 601-25 대영상가</strong>
+              <button class="icon-button" data-copy="locationAddress" type="button" aria-label="위치 주소 복사"></button>
             </div>
             <p>남산버스정류소에서 도보 3분</p>
           </div>
           <a
             class="map-preview"
-            href="https://map.naver.com/p/search/경남%20창원시%20성산구%20남산동"
+            href="https://map.naver.com/p/search/경남%20창원시%20성산구%20남산동%20601-25%20대영상가"
             target="_blank"
             rel="noopener"
             aria-label="네이버지도에서 위치 보기"
