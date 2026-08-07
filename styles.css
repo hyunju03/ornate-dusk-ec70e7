@@ -291,13 +291,11 @@ h1 {
 
 .quick-image-icon {
   display: block;
-  width: 92px;
-  height: 68px;
+  width: 96px;
+  height: 72px;
   margin: 0 auto 18px;
-  border-radius: 8px;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
-  background: #20272e;
 }
 
 .quick-icon {
