@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 90" role="img" aria-label="방구조 아이콘">
+  <g fill="none" stroke="#2357a4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="14" y="12" width="92" height="66" rx="8" />
+    <path d="M24 21h72" />
+    <path d="M24 69h72" />
+    <path d="M26 23v44" />
+    <path d="M94 23v44" />
+    <path d="M31 58h46" />
+    <path d="M31 45v13" />
+    <path d="M42 45h16a8 8 0 0 1 8 8v5" />
+    <path d="M42 45v13" />
+    <path d="M76 39h18" />
+    <path d="M86 39v-12" />
+    <path d="M80 27h12" />
+    <path d="M80 27v12" />
+    <path d="M92 27v12" />
+    <path d="M82 59h16" />
+    <path d="M86 53a8 8 0 0 1 12 6" />
+    <circle cx="82" cy="66" r="1.5" fill="#2357a4" stroke="none" />
+    <circle cx="90" cy="66" r="1.5" fill="#2357a4" stroke="none" />
+    <circle cx="98" cy="66" r="1.5" fill="#2357a4" stroke="none" />
+  </g>
+</svg>
